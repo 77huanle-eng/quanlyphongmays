@@ -1,0 +1,37 @@
+================================================================================
+       HƯỚNG DẪN TRIỂN KHAI & CHẠY ỨNG DỤNG QUẢN LÝ PHÒNG MÁY (STANDALONE APP)
+================================================================================
+
+Hệ thống đã được đóng gói thành các bộ ứng dụng độc lập (.exe), nhúng sẵn môi trường
+thực thi Java Runtime tối ưu (46MB), chạy trực tiếp trên mọi máy tính Windows 10/11 x64
+(kể cả máy trạm vật lý hoặc máy ảo VMware/VirtualBox) mà KHÔNG CẦN CÀI ĐẶT JAVA!
+
+--------------------------------------------------------------------------------
+1. BỘ CÀI ĐẶT DẠNG NÉN (.ZIP) DÙNG ĐỂ COPY SANG CÁC MÁY KHÁC:
+--------------------------------------------------------------------------------
+- QuanLyPhongMay_Server_App.zip (32 MB):
+  + Dành riêng cho Máy Giáo Viên / Quản trị viên (Server).
+  + Giải nén ra thư mục bất kỳ -> Bấm đúp vào "QuanLyPhongMay_Server.exe" để chạy.
+
+- QuanLyPhongMay_Client_App.zip (32 MB):
+  + Dành cho Máy Khách / Máy Học Sinh / Máy Ảo VMware (Client).
+  + Giải nén ra thư mục trên máy trạm -> Bấm đúp vào "QuanLyPhongMay_Client.exe" để chạy.
+  + Client sẽ tự động quét UDP Broadcast và kết nối tới Server trong mạng LAN.
+  + Tự động đăng ký chạy cùng Windows Startup khi khởi động lại máy.
+
+- QuanLyPhongMay_Portable_JAR.zip (1.1 MB):
+  + Bộ siêu nhẹ dành cho máy đã có cài sẵn Java.
+  + Chạy qua các file "Chay_Server.bat" và "Chay_Client.bat".
+
+--------------------------------------------------------------------------------
+2. BỘ ỨNG DỤNG ĐÃ GIẢI NÉN SẴN ĐỂ CHẠY NGAY TRÊN MÁY NÀY (Thư mục Apps_EXE):
+--------------------------------------------------------------------------------
+- Chạy Server ngay lập tức:
+  Vào thư mục: Apps_EXE\QuanLyPhongMay_Server\
+  Bấm đúp file: QuanLyPhongMay_Server.exe
+
+- Chạy Client ngay lập tức:
+  Vào thư mục: Apps_EXE\QuanLyPhongMay_Client\
+  Bấm đúp file: QuanLyPhongMay_Client.exe
+================================================================================
+

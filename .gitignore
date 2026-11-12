@@ -1,0 +1,22 @@
+# Build and temporary files
+*.class
+build/
+bin/
+*.tmp
+*.log
+
+# Standalone build artifacts
+Apps_EXE/
+Apps_Dist/
+QuanLyPhongMay_Client_App/
+*.zip
+
+# Runtime local machine configs
+client_security.properties
+known_clients.properties
+client_config.properties
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

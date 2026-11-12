@@ -1,0 +1,14 @@
+========================================================
+     HỆ THỐNG QUẢN LÝ PHÒNG MÁY - MÁY CHỦ (SERVER)
+========================================================
+
+1. HƯỚNG DẪN CHẠY:
+   - Cách 1: Bấm đúp chuột vào file "Chay_Server.bat"
+   - Cách 2: Mở terminal chạy lệnh:
+     java -jar dist\QuanLyPhongMay_Server.jar
+
+2. CẤU TRÚC THƯ MỤC:
+   - src/quanlyphongmay/server/ : Toàn bộ Form và xử lý của Máy Chủ
+   - src/quanlyphongmay/common/ : Bộ theme giao diện dùng chung
+   - dist/QuanLyPhongMay_Server.jar : Ứng dụng độc lập đã đóng gói sẵn
+========================================================

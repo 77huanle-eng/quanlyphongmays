@@ -1,0 +1,14 @@
+========================================================
+     HỆ THỐNG QUẢN LÝ PHÒNG MÁY - MÁY TRẠM (CLIENT)
+========================================================
+
+1. HƯỚNG DẪN CHẠY:
+   - Cách 1: Bấm đúp chuột vào file "Chay_Client.bat"
+   - Cách 2: Mở terminal chạy lệnh:
+     java -jar dist\QuanLyPhongMay_Client.jar
+
+2. CẤU TRÚC THƯ MỤC:
+   - src/quanlyphongmay/client/ : Toàn bộ Form và xử lý của Máy Con
+   - src/quanlyphongmay/common/ : Bộ theme giao diện dùng chung
+   - dist/QuanLyPhongMay_Client.jar : Ứng dụng độc lập đã đóng gói sẵn
+========================================================
