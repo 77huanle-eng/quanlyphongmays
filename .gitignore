@@ -16,6 +16,9 @@ client_security.properties
 known_clients.properties
 client_config.properties
 
+# Helper scripts
+PUSH_TO_GITHUB.bat
+
 # OS files
 Thumbs.db
 Desktop.ini
